@@ -6,7 +6,7 @@ import FormUser from './components/FormUser'
 
 function App() {
   const [updateInfo, setUpdateInfo] = useState()
-  const [formClose, setFormClose] = useState(true)
+  const [formClose, setFormClose] = useState(false)
   
 const { users, getAllUsers, createNewUser, deleteUserById, updateUserById
 } = useUserCrud()
